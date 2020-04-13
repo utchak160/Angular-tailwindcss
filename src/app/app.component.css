@@ -1,8 +1,17 @@
-.detail {
+.sec1-up {
   background-image: url("../assets/images/bg-section-top-desktop-1.svg");
 }
-.detail1{
+.sec1-down {
   background-image: url("../assets/images/bg-section-bottom-desktop-1.svg");
+}
+.sec3-up {
+  background-image: url("../assets/images/bg-section-top-desktop-2.svg");
+}
+.sec3-down {
+  background-image: url("../assets/images/bg-section-bottom-desktop-2.svg");
+}
+.sec-body{
+  background-color: #F6FBFF ;
 }
 .footer{
   background-image: url("../assets/images/bg-footer-top-desktop.svg");
@@ -10,13 +19,18 @@
 .footer-body {
   background-color: #00252E;
 }
-/*#F6FBFF*/
 @media (max-width: 678px) {
-  .detail {
+  .sec1-up {
     background-image: url("../assets/images/bg-section-top-mobile-1.svg");
   }
-  .detail1{
+  .sec1-down {
     background-image: url("../assets/images/bg-section-bottom-mobile-1.svg");
+  }
+  .sec3-up {
+    background-image: url("../assets/images/bg-section-top-mobile-2.svg");
+  }
+  .sec3-down {
+    background-image: url("../assets/images/bg-section-bottom-mobile-2.svg");
   }
   .footer{
     background-image: url("../assets/images/bg-footer-top-mobile.svg");
